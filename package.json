@@ -18,8 +18,7 @@
     "test-cross": "SAUCE=true ng test -sr",
     "test-coverage": "ng test -sr -cc"
   },
-  "main": "bundles/ng2-google-charts.umd.js",
-  "module": "index.js",
+  "main": "./src/index.ts",
   "typings": "index.d.ts",
   "keywords": [
     "angular2",
